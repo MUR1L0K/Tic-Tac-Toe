@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*:root {
+}*/
+#container {
+  text-align: center;
+}
+#cabecalho {
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.233);
+}
+#cabecalho-titulo {
+  padding: 40px;
+}
+#cabecalho-texto {
+  padding-bottom: 30px;
+}
+#conteudo-prejogo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#conteudo-prejogo-texto {
+  padding: 30px;
+}
