@@ -7,16 +7,21 @@
 }*/
 #container {
   text-align: center;
+  background-image: url(https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d07c1db617a36898b5e8c71013d228d11003eb36d7150b7abfe988fe097c7d66.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 #cabecalho {
   padding-top: 50px;
-  background-color: rgba(0, 0, 0, 0.233);
 }
 #cabecalho-titulo {
+  font-size: 5em;
   padding: 40px;
 }
 #cabecalho-texto {
   padding-bottom: 30px;
+  font-size: 1.5em;
 }
 #conteudo-prejogo {
   display: flex;
@@ -26,5 +31,76 @@
   justify-content: space-evenly;
 }
 #conteudo-prejogo-texto {
+  font-size: 1.3em;
   padding: 30px;
+}
+#startGame {
+  margin-top: 40px;
+}
+#gameTurn {
+  padding: 40px;
+}
+#gameSection {
+  margin: auto;
+  width: 50%;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: minmax(150px, 300px);
+  grid-auto-rows: minmax(150px, auto);
+}
+#squareGame1 {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  cursor: pointer;
+}
+#squareGame2 {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  cursor: pointer;
+}
+#squareGame3 {
+  border-bottom: 5px solid white;
+  border-left: 5px solid white;
+  cursor: pointer;
+}
+#squareGame4 {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  border-top: 5px solid white;
+  cursor: pointer;
+}
+#squareGame5 {
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  border-top: 5px solid white;
+  cursor: pointer;
+}
+#squareGame6 {
+  border-bottom: 5px solid white;
+  border-left: 5px solid white;
+  border-top: 5px solid white;
+  cursor: pointer;
+}
+#squareGame7 {
+  border-right: 5px solid white;
+  border-top: 5px solid white;
+  cursor: pointer;
+}
+#squareGame8 {
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  border-top: 5px solid white;
+  cursor: pointer;
+}
+#squareGame9 {
+  border-left: 5px solid white;
+  border-top: 5px solid white;
+  cursor: pointer;
+}
+#gameResult {
+  padding: 40px;
 }

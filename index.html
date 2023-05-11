@@ -27,7 +27,7 @@
             type="text"
             name="player01"
             id="player01"
-            placeholder="Jogador 1"
+            placeholder="Digite aqui"
           />
         </div>
         <div>
@@ -36,19 +36,36 @@
             type="text"
             name="player02"
             id="player02"
-            placeholder="Jogador 02"
+            placeholder="Digite aqui"
           />
         </div>
       </section>
+      <div>
+        <button id="startGame" onclick="startGame()">Começar</button>
+      </div>
       <section>
-        <div>
-          <!--Mostrar de que é a vez-->
+        <div id="gameTurn">
+          <p id="gameTurnText">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+            praesentium.
+          </p>
         </div>
-        <div>
-          <!--Jogo-->
+        <div id="gameSection">
+          <div class="squareGame" id="squareGame1" onclick="jogada()"></div>
+          <div class="squareGame" id="squareGame2" onclick="jogada()"></div>
+          <div class="squareGame" id="squareGame3" onclick="jogada()"></div>
+          <div class="squareGame" id="squareGame4" onclick="jogada()"></div>
+          <div class="squareGame" id="squareGame5" onclick="jogada()"></div>
+          <div class="squareGame" id="squareGame6" onclick="jogada()"></div>
+          <div class="squareGame" id="squareGame7" onclick="jogada()"></div>
+          <div class="squareGame" id="squareGame8" onclick="jogada()"></div>
+          <div class="squareGame" id="squareGame9" onclick="jogada()"></div>
         </div>
-        <div>
-          <!--Resultado-->
+        <div id="gameResult">
+          <p id="gameResultText">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum,
+            ducimus!
+          </p>
         </div>
       </section>
     </main>
