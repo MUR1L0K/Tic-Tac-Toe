@@ -1,32 +1,31 @@
-const player01 = document.getElementById("player01").value;
-const player02 = document.getElementById("player02").value;
-const gameTurn = document.getElementById("gameTurnText");
-const responseText = document.getElementById("gameResultText");
-const board = document.querySelectorAll(".squareGame");
-
+const player01 = document.getElementById("player01");
+const player02 = document.getElementById("player02");
+const gameTurn = document.getElementById("gameTurn");
+const responseText = document.getElementById("gameResult");
+let turn = 0;
+/*
 function startGame() {
   let gameEnd = false;
   while (gameEnd == false) {
     if (turn == 0) {
-      gameTurn.innerText = `Vez de ${player01}`;
+      gameTurn.innerText = `Vez de ${player01.value}`;
       turn++;
     } else if (turn == 1) {
-      gameTurn.innerText = `Vez de ${player02}`;
+      gameTurn.innerText = `Vez de ${player02.value}`;
       turn--;
     }
-    break;
+    gameEnd = true;
+    gameOver();
   }
 }
 function gameOver() {
-  responseText.innerText = `${player01} Venceu o jogo!`;
+  responseText.innerText = `${player01.value} Venceu o jogo!`;
 }
-let turn = 0;
-
-function jogada(ev) {
-  if (turn == 0) {
-    let square = ev.currentTarget;
-    square.innerText = "X";
-  } else if (turn == 1) {
-    board.innerText = "O";
-  }
-}
+*/
+document
+  .querySelectorAll(".squareGame")
+  .forEach("click", function (selectedSquare) {
+    selectedSquare.addEventListener("click", function () {
+      selectedSquare.innerText = "X";
+    });
+  });
