@@ -50,6 +50,9 @@
   grid-auto-columns: minmax(150px, 300px);
   grid-auto-rows: minmax(150px, auto);
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 .squareGame {
   display: grid;
   place-content: center;
