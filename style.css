@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*:root {
-}*/
 #container {
   text-align: center;
   background-image: url(https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d07c1db617a36898b5e8c71013d228d11003eb36d7150b7abfe988fe097c7d66.png);
@@ -111,7 +109,4 @@ div.win {
   border-left: 5px solid white;
   border-top: 5px solid white;
   cursor: pointer;
-}
-#gameResult {
-  padding: 40px;
 }
